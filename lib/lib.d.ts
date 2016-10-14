@@ -9913,7 +9913,7 @@ interface HTMLInputElement extends HTMLElement {
       * Returns the value of the data at the cursor's current position.
       */
     value: string;
-    valueAsDate: Date;
+    valueAsDate: Date|null;
     /**
       * Returns the input field value as a number.
       */
